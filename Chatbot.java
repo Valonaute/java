@@ -41,6 +41,8 @@ public class Chatbot {
             System.out.println(" Humm la pluie parisienne... Tu veux vraiment en parler ? Allons-y !  ");
         }
 
+        scannerUserName.close();
+        Subject.close();
 
 
     }

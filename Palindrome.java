@@ -42,7 +42,7 @@ public class Palindrome {
                 Scanner scannerWantPlay = new Scanner(System.in);
             System.out.println("Voulez-vous continuer ? (y/n) ");
             String motWantPlay = scannerWantPlay.nextLine();
-
+            scannerWantPlay.close();
 
                 if(motWantPlay.equals("y")){
                     wantPlay = true;
@@ -54,6 +54,7 @@ public class Palindrome {
                 System.out.println("Continuez vous n'avez pas encore gagné !");
             }
 
+            scanner.close();
             
         }
     }

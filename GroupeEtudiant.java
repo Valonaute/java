@@ -8,7 +8,7 @@ public class GroupeEtudiant {
     public void ajouterEtudiant( ){
 
         // Création nouvelle etudiant 
-
+        cda.add(null);
         // Ajout à la liste add > ajouter 
 
     }
