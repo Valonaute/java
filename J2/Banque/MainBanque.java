@@ -1,4 +1,4 @@
-package Banque;
+package J2.Banque;
 
 public class MainBanque {
     

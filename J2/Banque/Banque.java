@@ -1,4 +1,4 @@
-package Banque;
+package J2.Banque;
 import java.util.ArrayList;
 
 public class Banque {
